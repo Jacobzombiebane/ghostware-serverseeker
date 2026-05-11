@@ -1,0 +1,109 @@
+# --- LOCAL / PRIVATE ---
+127.0.0.0/8
+10.0.0.0/8
+172.16.0.0/12
+192.168.0.0/16
+169.254.0.0/16
+224.0.0.0/4
+240.0.0.0/4
+
+# --- HOSTBRR / UPSTREAMS (AS214902, AS48314, AS24940) ---
+5.83.147.0/24   # Hostbrr
+77.90.2.0/24    # Hostbrr
+77.90.6.0/24    # Hostbrr
+77.90.8.0/24    # Hostbrr
+77.90.13.0/24   # Hostbrr
+77.90.19.0/24   # Hostbrr
+77.90.43.0/24   # Hostbrr
+85.93.9.0/24    # GHOSTnet/Hostbrr
+89.144.8.0/24   # GHOSTnet/Hostbrr
+5.9.0.0/16      # Hetzner (Hostbrr upstream)
+88.198.0.0/16   # Hetzner
+78.46.0.0/15    # Hetzner
+91.189.0.0/16   # Hetzner
+94.130.0.0/16   # Hetzner
+95.216.0.0/15   # Hetzner
+116.202.0.0/15  # Hetzner
+128.0.0.0/16    # Hetzner
+131.188.0.0/15  # Hetzner
+135.181.0.0/16  # Hetzner
+136.243.0.0/16  # Hetzner
+138.201.0.0/16  # Hetzner
+142.132.0.0/16  # Hetzner
+144.76.0.0/16   # Hetzner
+148.251.0.0/16  # Hetzner
+157.90.0.0/16   # Hetzner
+159.69.0.0/16   # Hetzner
+162.55.0.0/16   # Hetzner
+167.233.0.0/16  # Hetzner
+167.235.0.0/16  # Hetzner
+168.119.0.0/16  # Hetzner
+176.9.0.0/16    # Hetzner
+178.63.0.0/16   # Hetzner
+188.40.0.0/16   # Hetzner
+195.201.0.0/16  # Hetzner
+213.133.96.0/19 # Hetzner
+213.239.192.0/18 # Hetzner
+
+# --- US MILITARY (DOD) ---
+6.0.0.0/8       # Army Information Systems Center
+7.0.0.0/8       # DISA
+11.0.0.0/8      # DoD Intel
+21.0.0.0/8      # DISA
+22.0.0.0/8      # DISA
+26.0.0.0/8      # DISA
+28.0.0.0/8      # DLA
+29.0.0.0/8      # DISA
+30.0.0.0/8      # DISA
+33.0.0.0/8      # DLA
+55.0.0.0/8      # Army National Guard
+214.0.0.0/8     # US-DOD-NET
+215.0.0.0/8     # US-DOD-NET
+
+# --- NASA ---
+128.102.0.0/16
+128.149.0.0/16
+128.154.0.0/16
+128.155.0.0/16
+128.156.0.0/16
+128.157.0.0/16
+128.158.0.0/16
+128.159.0.0/16
+128.161.0.0/16
+128.183.0.0/16
+130.164.0.0/16
+131.182.0.0/16
+132.160.0.0/16
+139.169.0.0/16
+140.129.0.0/16
+143.232.0.0/16
+146.165.0.0/16
+147.159.0.0/16
+150.144.0.0/16
+158.154.0.0/16
+161.115.0.0/16
+163.205.0.0/16
+163.206.0.0/16
+169.154.0.0/16
+192.149.89.0/24
+198.116.0.0/16
+198.117.0.0/16
+198.118.0.0/16
+198.119.0.0/16
+198.120.0.0/16
+198.121.0.0/16
+198.122.0.0/16
+198.123.0.0/16
+
+# --- OTHER GOV / INFRASTRUCTURE ---
+12.0.0.0/8      # AT&T (Many gov contracts)
+13.0.0.0/8      # Xerox / HP (Legacy ranges often sensitive)
+15.0.0.0/8      # HP
+34.0.0.0/8      # Halliburton
+40.0.0.0/8      # Microsoft (Cloud ranges - avoid mass scanning)
+44.0.0.0/8      # Amateur Radio Digital Communications (Often monitored)
+48.0.0.0/8      # Prudential
+51.0.0.0/8      # UK Department for Work and Pensions
+52.0.0.0/8      # Amazon (Cloud - avoid mass scanning)
+56.0.0.0/8      # US Postal Service
+213.251.128.0/18 # OVH Gov
